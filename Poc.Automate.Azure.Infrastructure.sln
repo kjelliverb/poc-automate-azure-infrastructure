@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.WebApi", "Poc.WebApi\Poc.WebApi.csproj", "{97062F91-DB8F-4D00-8CF7-45F803B22DA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Setup", "Poc.Setup\Poc.Setup.csproj", "{68B695F4-AB8A-4B0C-B0BA-F0369E5AEA27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{97062F91-DB8F-4D00-8CF7-45F803B22DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97062F91-DB8F-4D00-8CF7-45F803B22DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97062F91-DB8F-4D00-8CF7-45F803B22DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B695F4-AB8A-4B0C-B0BA-F0369E5AEA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B695F4-AB8A-4B0C-B0BA-F0369E5AEA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B695F4-AB8A-4B0C-B0BA-F0369E5AEA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B695F4-AB8A-4B0C-B0BA-F0369E5AEA27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

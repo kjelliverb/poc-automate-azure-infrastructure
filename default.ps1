@@ -17,12 +17,6 @@ TaskSetup {
 task default -depends build
 task init -depends config-iis, register-eventsource, bootstrap-paket, restore-packages
 
-
-task register-eventsource {
-  Write-Host "== Registering event source ==" -ForegroundColor Green
-  RegisterEventSource($projectName)
-}
-
 task restore-packages {
   Write-Host "== Restoring packages ==" -ForegroundColor Green
   Exec { & .\tools\nuget\nuget.exe restore }
